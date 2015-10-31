@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Corn Portfolio</title>
+        <link type="text/css" rel="stylesheet" href="assets/style.css">
+        <!--FONTS-->
+        <link href='https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link rel="author" href="humans.txt">
+    </head>
+    <body>
+    	<header id="header row">
+    		<div class="navbar row split-center column-center">
+    			<div class="navbar-header">
+    				<h2>Start Bootstrap</h2>
+    			</div>    			
+    			<div class="navbar-links">
+    				<ul class="row">
+    					<li><a href="#">Portfolio</a></li>
+    					<li><a href="#">About</a></li>
+    					<li><a href="#">Contact</a></li>
+    				</ul>
+    			</div>
+    		</div>
+    		</header>
+    	<!-- SPLASH CONTENT -->
+    	<div class="container-fluid">
+    		<div class="splash-page column column-center">
+    			<div class="splash-logo">
+    				<img src="img/profile-1.png" alt="">
+    			</div>
+    			<span>Start Bootstrap</span>
+    			<p>Web Developer - Graphic Artist - User Experience Designer</p>
+    		</div>
+    	</div>
+    </div>
+    <!-- END SPLASH CONTENT --> 
+    <!-- Porfolio-->
+    <div class="container">
+    	<div class="content-wrap column column-center">
+    		<h1>Portfolio</h1>
+    		<div class="img-content">
+    			<ul class="row">
+    				<img src="http://ironsummitmedia.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="">
+    				<img src="http://ironsummitmedia.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="">
+    				<img src="http://ironsummitmedia.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
+    			</ul>
+    			<ul class="row">
+    				<img src="http://ironsummitmedia.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
+    				<img src="http://ironsummitmedia.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="">
+    				<img src="http://ironsummitmedia.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+    <!-- END PROTFOLIO -->
+    <div class="container-fluid">
+    	<div class="about-content column column-center">
+    		<h1>About</h1>
+    			<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+    			<p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+    			<button>Download Theme</button>
+    		</div>
+    	</div>
+    <!-- END PORTFOLIO --> 
+    <!-- CONTACT ME --> 
+    <div class="container">
+    	<div class="contact">
+    		<div class="c-wrap column column-center">
+    			<h1>Contact Me</h1>
+    			<input type="text" placeholder="Name"/>
+    			<input type="text" placeholder="Email"/>
+    			<input type="text" placeholder="Phone Number"/>
+    			<textarea placeholder="message"></textarea>
+    		</div>
+    		<button class="row">Send</button>
+    	</div>
+    </div>
+    <!-- END CONTACT ME --> 
+
+    <!-- FINAL CONTENT --> 
+    <div class="container-fluid">
+    	<div class="outter-wrap row column-center">
+    		<div class="inner-wrap row">
+    			<div class="column">
+    				<h2>Location</h2>
+    				<p>3481 Melrose Place Beverly Hills, CA 90210</p>
+    			</div>
+    			<div class="column">
+    				<h2>Around the web</h2>
+    				<div class="social-icons row center">
+    					<img src="#" alt="">
+    					<img src="#" alt="">
+    					<img src="#" alt="">
+    					<img src="#" alt="">
+    					<img src="#" alt="">
+                    </div>	
+                </div>
+    			<div class="column">
+    				<h2>About Freelancer</h2>
+    				<p>Freelance is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <!--END FINAL CONTENT--> 
+           <script src="js/main.js"></script>
+    </body>
+</html>
